@@ -27,4 +27,4 @@ jobs:
           image: alpine:3.14
           args: --severity-threshold=low
         env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          SNYK_TOKEN: b3b76d74-caf2-488e-bfc8-44b7dd5e8b30
